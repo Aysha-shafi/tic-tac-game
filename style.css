@@ -1,0 +1,49 @@
+
+.main{
+    height: 700px;
+    width:100%;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+
+
+
+
+.row{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+   
+   
+    
+}
+
+
+
+.cell{
+    height: 100px;
+    width:100px;
+   border: 2px solid black;
+   border-radius: 20px;
+   transition: transform 0.1s ease-in;
+   font-family: comic sans ms;
+   font-size: 40px;
+   line-height: 100px;
+   text-align: center;
+   
+
+   
+   
+}
+.cell:hover{
+    transform: scale(1.1);
+
+}
